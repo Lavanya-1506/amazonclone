@@ -35,6 +35,7 @@
 		}
 		.border:hover{
 			border: 1.5px solid white;
+		
 
 		}
 		/*2nd box */
@@ -142,18 +143,112 @@
 			font-weight: 700;
 			margin-left:450px;
 		}
-		/**herosection**/
 		.hero-section{
-			background-image: url(images/hero_image.jpg);
-			height:600px;
-			background-size: cover;
+			background-image: url('images/hero_image.jpg'); /* Set your image */
+			background-size: cover; /* Ensures the image covers the full area */
+		
 			background-repeat: no-repeat;
+			width: 100%;
+			height: 400px; /* Full screen height */
+			align-items: flex-end;
+		
+			text-align: center;
+			justify-content: center;
+
+		}
+		.hero-msg{
+			background-color: white;
+			font-size: 14px;
+			height:40px;
+			
 			display: flex;
 			justify-content: center;
-			align-items: flex;
+			align-items: center;
+			margin-bottom:35px;
+			bottom:180px;
+			position: relative;
 			
 		}
-	
-	
+		.hero-msg a{
+			color:#222f3d ;
+		}
+		.shop-section{
+			display: flex;
+			flex-wrap:wrap;
+			justify-content: space-evenly;
+			background-color: #d8aaaa;
+		}
+		.box{
 
- 
+			height:400px;
+			width:23%;
+			background-color:white;
+			padding:20px 0px 15px;
+			margin-top:14px;
+			
+		}
+		.box-image{
+			height:350px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin-top: 14px;
+			
+		}
+		.box-content{
+			margin-left: 15px;
+			margin-right: 15px;
+
+		}
+		.box-content a{
+			color:#1b988d;
+		}
+		/*footer*/
+		footer{
+			margin-top:15px;
+		}
+		.foot-panel{
+			background-color: #37475a;
+			color:white;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			height:50px;
+			font-size: 15px;
+		}
+		.foot-panel2{
+			background-color: #232f3e;
+			color:white;
+			display: flex;
+			height:300px;
+			justify-content: space-evenly;
+		
+			
+		}
+		ul{
+			margin-top:55px;
+		}
+		ul a{
+			display: block;
+			font-size:14px;
+			margin-top:10px;
+			color:#ddd
+		}
+		.foot-panel3{
+			border-top:0.1px solid white;
+			background-color:#232f3e ;
+			justify-content: center;
+			display: flex;
+			align-items: center;
+			height:100px;
+			color:white;
+		}
+		.logo {
+			background-image:url("amazon_logo.png");
+			background-position: cover;    
+			height: 80px;
+			width:100%;
+		}
+
+
+
+		shopping background image to add on website
